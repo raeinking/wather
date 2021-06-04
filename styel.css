@@ -1,0 +1,101 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Merriweather', serif;
+        height:100vh;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-image: url("https://source.unsplash.com/random");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card {
+        width:450px;
+        height: 300px;
+        background-color: rgba(20, 15, 15, 0.541);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        border-radius: 15px;
+    }
+
+    .card .serchbox {
+        margin:9px 0px 9px 0px;
+        padding: 10px;
+        display:flex;
+
+    }
+
+    .serchbox input {
+        padding: 8px 10px;
+        outline: none;
+        border:none;
+        border-radius:0 0 0 15px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Noto Sans SC', sans-serif;
+        letter-spacing: 1.2px;
+        text-align: center;
+        text-transform:capitalize;
+        color:white; 
+        background-color:rgb(87, 83, 83)
+    }
+
+    .serchbox input:focus {
+        outline: none;
+        background-color:rgba(32, 23, 23, 0.281);
+        transition: all 0.2s ease-in-out
+    }
+
+    .serchbox input:hover {
+        background-color:rgba(0, 0, 0, 0.219);
+    }
+
+    .search {
+        padding: 8px 10px;
+        border-radius:0 15px 0 0;
+        background-color:aliceblue;
+        border-left:1px solid rgba(75, 75, 57, 0.377);
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serchbox .search:hover {
+        background-color:rgba(32, 23, 23, 0.281);
+        color:white;
+    }
+
+    .serchbox .search:active {
+        background-color:rgb(53, 90, 38);
+    }
+
+    h1 {
+        color:White;
+    }
+
+    h2 {
+        color:White;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .hh {
+        display:flex;
+
+    }
